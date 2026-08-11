@@ -1,0 +1,47 @@
+THE EDEN KIDS CAMPUS & GIRLS COLLEGE
+COMPLETE WEBSITE + LOGIN + DATABASE
+
+IMPORTANT:
+GitHub Pages can host the public HTML only. It cannot run the Flask backend or SQLite database.
+For the complete system, deploy this folder to a Python host such as Render.
+
+WHAT IS INCLUDED:
+- Public school website
+- Exact Eden logo asset
+- School/campus photos
+- Admin login + dashboard
+- Teacher login + dashboard
+- Student login + dashboard
+- SQLite database
+- Users, classes, student profiles, teacher profiles
+- Attendance
+- Results/marks
+- Homework
+- Notices
+- Events/functions
+- Gallery uploads
+- Admission enquiries
+- Role-based access control
+
+DEMO LOGINS:
+Admin: admin / EdenAdmin#2026
+Teacher: teacher01 / Teacher#2026
+Student: student01 / Student#2026
+
+CHANGE THESE PASSWORDS BEFORE REAL USE.
+
+MOBILE DEPLOYMENT (RECOMMENDED):
+1. Keep this whole project together; do not upload only index.html.
+2. Create a new GitHub repository and upload ALL files/folders from this package.
+3. On Render, create a new Web Service and connect that GitHub repository.
+4. Build command: pip install -r requirements.txt
+5. Start command: gunicorn app:app
+6. Open the Render URL. That URL is the complete website and portal.
+
+LOCAL TEST (PC):
+pip install -r requirements.txt
+python app.py
+Then open http://127.0.0.1:5000/
+
+NOTE ABOUT DATABASE:
+SQLite is included and works immediately. For a large production school system, migrate to PostgreSQL later.
